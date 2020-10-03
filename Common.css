@@ -1,0 +1,284 @@
+@import url("/de/load.php?mode=articles&articles=MediaWiki:KommentarHighlights.css|MediaWiki:Mainpage.css&only=styles");
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+ 
+/* KATEGORIEN KLEINER SCHATTEN */
+.category-gallery-item img {
+    box-shadow: 0px 0px 5px 0px #858375;
+}
+ 
+/*** Tabber ***/
+.tabberlive {
+    /* tabber wrapper style */
+	margin-top: 2em;
+}
+.tabberlive > .tabbertab:not(.tabbertabhide) {
+	border: 0px solid #aaa;
+	padding-top:15px;
+}
+.tabberlive > .tabbernav {
+    background-color: #F12B24;
+    font: bold 14px Helvetica, Arial, sans-serif;
+    margin: -19px -3px;
+    padding: 8px 0
+}
+.tabberlive > .tabbernav > li {
+	color:#FFF;
+}
+.tabberlive > .tabbernav > li > a {
+	background-color:#F12B24;
+	color:#000;
+}
+.tabberlive > .tabbernav > li > a:link {
+	color:#FFF;
+	border: 0px;
+}
+.tabberlive > .tabbernav > li > a:hover {
+	background-color:#b31217;
+	color:#FFF;
+}
+.tabberlive > .tabbernav > li > a:active {
+	background-color:#b31217;
+	color:#FFF;
+}
+.tabberlive > .tabbernav > li.tabberactive > a {
+	background-color:#b31217;
+	color:#FFF;
+}
+.tabberlive > .tabbernav > li.tabberactive > a:hover {
+	background-color:#b31217;
+	color:#FFF;
+}
+.tabberlive > .tabbernav > li.tabberactive > a:active {
+	background-color:#b31217;
+	color:#FFF;
+}
+ 
+ul.tabbernav {
+    font: bold 15px Verdana, sans-serif;
+    margin: -20px 0;
+}
+ 
+/* menu shadows */
+.AccountNavigation .subnav, #WallNotifications .subnav, .GlobalNavigation .subnav, .ChatWindow .UserStatsMenu {
+    border:5px solid #721410;
+    border-radius:10px;
+    box-shadow:0 1px 30px 0 rgba(255, 255, 255, 1);
+}
+
+/* Banner über dem Footer */
+#mpmodule {
+    background: rgba(0, 191, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Diskussionen-CSS */
+#Wall.Thread .comments>.message>.speech-bubble-message,
+.Wall ul.comments > li.message > .speech-bubble-message {
+	border-radius: 15px;
+}
+
+#Wall.Thread .comments .speech-bubble-avatar .avatar {
+	border-radius: 8px;
+}
+
+
+/*
+------------------------------------------------------------------------
+ANFANG PI-CSS
+------------------------------------------------------------------------
+*/
+.pi-background {
+    background-color: #f2f2f2;
+}
+ 
+.portable-infobox .pi-title {
+    text-align: center;
+    color: #fff;
+    background-color: #f90001;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+ 
+.portable-infobox .pi-header {
+    background-color: #ccc;
+    border-color: black;
+    margin-bottom: 1px;
+}
+ 
+.portable-infobox .pi-border-color {
+    border-color: #ccc;
+}
+ 
+.portable-infobox .pi-navigation {
+    background-color: #f2f2f2;
+}
+
+.portable-infobox .pi-smart-data-label:not(:first-child),
+.portable-infobox .pi-smart-data-value:not(:first-child) {
+    border-color: #CCCCCC;
+}
+ 
+.portable-infobox .pi-limage {
+    color:transparent;
+    width:100%;
+    background-position:center center;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    height:3.4em;
+}
+ 
+.portable-infobox .pi-limage a {
+    color:transparent;
+}
+ 
+.portable-infobox .pi-limage a::after {
+    background:transparent none;
+}
+ 
+.portable-infobox .pi-youtube {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/7/71/Social_youtube.png/40px-Social_youtube.png');
+}
+ 
+.portable-infobox .pi-facebook {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/f/f6/Social_facebook.png/40px-Social_facebook.png');
+}
+ 
+.portable-infobox .pi-twitter {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/3/3e/Social_twitter.png/40px-Social_twitter.png');
+}
+ 
+.portable-infobox .pi-instagram {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/7/71/Social_instagram.png/40px-Social_instagram.png');
+}
+ 
+.portable-infobox .pi-twitch {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/e/e7/Social_twitch.png/40px-Social_twitch.png');
+}
+ 
+.portable-infobox .pi-googleplus {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/6/65/G%2B.png/40px-G%2B.png');
+}
+ 
+.portable-infobox .pi-web {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/3/37/Social_web.png/40px-Social_web.png');
+}
+
+.portable-infobox .pi-snap {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/2/2f/Snapchat_social.png/40px-Snapchat_social.png');
+}
+
+.portable-infobox .pi-discord {
+    background-image:url('https://images.wikia.nocookie.net/youtube/de/images/thumb/2/2d/Discord-Logo-Color.png/40px-Discord-Logo-Color.png');
+}
+
+.portable-infobox .pi-limage a {
+	display: block;
+	line-height: 40px;
+    hyphens: auto;
+}
+/*
+------------------------------------------------------------------------
+ENDE PI-CSS
+------------------------------------------------------------------------
+*/
+
+
+
+/*
+------------------------------------------------------------------------
+ANFANG Benutzerseiten-Styling
+------------------------------------------------------------------------
+*/
+#WikiaUserPagesHeader.WikiaUserPagesHeader {
+	background: none;
+}
+
+#WikiaUserPagesHeader.WikiaUserPagesHeader .masthead-info > hgroup {
+  background-image: url("https://images.wikia.nocookie.net/pucky/de/images/1/19/Play-Symbol_white.png");
+  background-repeat: no-repeat;
+  background-position: 930px;
+  background-size:50px;
+}
+
+.UserProfileMasthead .masthead-avatar .avatar {
+    border: none;
+}
+
+.UserProfileMasthead .masthead-info-lower::before {
+    border-style: none;
+}
+/*
+------------------------------------------------------------------------
+ENDE Benutzerseiten-Styling
+------------------------------------------------------------------------
+*/
+
+/* Ausklappen */
+.mw-collapsible-toggle {
+    float:left;
+}
+
+/* Diskussions-Modul auf der Hauptseitre verstecken */
+.mainpage .module.discussion-module.discussion-test {
+	display: none;
+}
+
+/*
+------------------------------------------------------------------------
+ANFANG Portal-Styling von User:Trollocool <3
+------------------------------------------------------------------------
+*/
+.portal__container {
+    display:flex;
+}
+ 
+.portal__container__suba {
+    flex-basis:100%;
+}
+ 
+.portal__container__sub1 {
+    flex-basis:50%;
+    margin-right:.25em;
+}
+ 
+.portal__container__sub2 {
+    flex-basis:50%;
+    margin-left:.25em;
+}
+ 
+h2.portal__ccontainer__header {
+    background: #F12B24;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 0.3em;
+    text-align:center;
+    margin:0;
+}
+ 
+.portal__ccontainer__text {
+    background: white;
+    color: black;
+    text-align:left;
+    padding:.7em;
+}
+.portal__ccontainer__text.centered {
+    text-align:center;
+}
+ 
+.portal__ccontainer__text p {
+    margin:0;
+}
+ 
+.portal__ccontainer {
+    border: 2px solid #F12B24;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+/*
+------------------------------------------------------------------------
+ENDE Portal-Styling von User:Trollocool <3
+------------------------------------------------------------------------
+*/
