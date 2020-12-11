@@ -1,31 +1,29 @@
-@import url("/de/load.php?mode=articles&articles=MediaWiki:KommentarHighlights.css|MediaWiki:Mainpage.css&only=styles");
+@import url("/de/load.php?mode=articles&articles=MediaWiki:Mainpage.css&only=styles");
 @import url(https://fonts.googleapis.com/css?family=Roboto);
- 
-/* KATEGORIEN KLEINER SCHATTEN */
-.category-gallery-item img {
-    box-shadow: 0px 0px 5px 0px #858375;
+
+/* Toolbar text color fix */
+.WikiaBarWrapper .toolbar ul.tools {
+	color:white;
 }
- 
-/*** Tabber ***/
-.tabberlive {
-    /* tabber wrapper style */
-	margin-top: 2em;
+.WikiaBarWrapper .toolbar .tools > li > a {
+	color: white;
 }
-.tabberlive > .tabbertab:not(.tabbertabhide) {
-	border: 0px solid #aaa;
-	padding-top:15px;
+.WikiaBarWrapper .arrow {
+	color: white;
 }
-.tabberlive > .tabbernav {
-    background-color: #F12B24;
-    font: bold 14px Helvetica, Arial, sans-serif;
-    margin: -19px -3px;
-    padding: 8px 0
-}
-.tabberlive > .tabbernav > li {
-	color:#FFF;
+
+/*
+------------------------------------------------------------------------
+ANFANG Tabber-CSS
+------------------------------------------------------------------------
+*/
+ul.tabbernav {
+  font-size: 10pt;
+  padding-top: 0px;
+  background-color: #f12b24;
 }
 .tabberlive > .tabbernav > li > a {
-	background-color:#F12B24;
+	background-color:#f12b24;
 	color:#000;
 }
 .tabberlive > .tabbernav > li > a:link {
@@ -52,37 +50,11 @@
 	background-color:#b31217;
 	color:#FFF;
 }
- 
-ul.tabbernav {
-    font: bold 15px Verdana, sans-serif;
-    margin: -20px 0;
-}
- 
-/* menu shadows */
-.AccountNavigation .subnav, #WallNotifications .subnav, .GlobalNavigation .subnav, .ChatWindow .UserStatsMenu {
-    border:5px solid #721410;
-    border-radius:10px;
-    box-shadow:0 1px 30px 0 rgba(255, 255, 255, 1);
-}
-
-/* Banner über dem Footer */
-#mpmodule {
-    background: rgba(0, 191, 255, 0.2);
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Diskussionen-CSS */
-#Wall.Thread .comments>.message>.speech-bubble-message,
-.Wall ul.comments > li.message > .speech-bubble-message {
-	border-radius: 15px;
-}
-
-#Wall.Thread .comments .speech-bubble-avatar .avatar {
-	border-radius: 8px;
-}
-
+/*
+------------------------------------------------------------------------
+ENDE Tabber-CSS
+------------------------------------------------------------------------
+*/
 
 /*
 ------------------------------------------------------------------------
@@ -126,7 +98,8 @@ ANFANG PI-CSS
     background-position:center center;
     background-color:transparent;
     background-repeat:no-repeat;
-    height:3.4em;
+    /*height:3.4em;*/
+    height:6em;
 }
  
 .portable-infobox .pi-limage a {
@@ -183,47 +156,6 @@ ANFANG PI-CSS
 ENDE PI-CSS
 ------------------------------------------------------------------------
 */
-
-
-
-/*
-------------------------------------------------------------------------
-ANFANG Benutzerseiten-Styling
-------------------------------------------------------------------------
-*/
-#WikiaUserPagesHeader.WikiaUserPagesHeader {
-	background: none;
-}
-
-#WikiaUserPagesHeader.WikiaUserPagesHeader .masthead-info > hgroup {
-  background-image: url("https://images.wikia.nocookie.net/pucky/de/images/1/19/Play-Symbol_white.png");
-  background-repeat: no-repeat;
-  background-position: 930px;
-  background-size:50px;
-}
-
-.UserProfileMasthead .masthead-avatar .avatar {
-    border: none;
-}
-
-.UserProfileMasthead .masthead-info-lower::before {
-    border-style: none;
-}
-/*
-------------------------------------------------------------------------
-ENDE Benutzerseiten-Styling
-------------------------------------------------------------------------
-*/
-
-/* Ausklappen */
-.mw-collapsible-toggle {
-    float:left;
-}
-
-/* Diskussions-Modul auf der Hauptseitre verstecken */
-.mainpage .module.discussion-module.discussion-test {
-	display: none;
-}
 
 /*
 ------------------------------------------------------------------------
